@@ -5,7 +5,7 @@ from jupyter_whitelist_env import __version__, load_jupyter_server_extension
 
 
 def test_version():
-    assert __version__ == "0.1.0"
+    assert __version__ == "0.1.1"
 
 
 def test_load_jupyter_server_extension():
