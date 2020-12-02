@@ -4,6 +4,18 @@ version = "0.1.1"
 description = ""
 authors = ["Daisuke Taniwaki <daisuketaniwaki@gmail.com>"]
 license = "MIT"
+classifiers = [
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Framework :: IPython",
+  "Framework :: Jupyter",
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
