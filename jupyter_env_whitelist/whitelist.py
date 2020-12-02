@@ -1,6 +1,5 @@
 import os
 
-
 default_whitelist = [
     "PWD",
     "KERNEL_USERNAME",
