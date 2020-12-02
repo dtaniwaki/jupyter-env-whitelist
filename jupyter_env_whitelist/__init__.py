@@ -22,7 +22,7 @@ default_whitelist = [
 
 
 def load_jupyter_server_extension(_nb_server_app: NotebookWebApplication) -> None:
-    whitelist_str = os.environ.get("JUPYTER_WHITELIST_ENV", None)
+    whitelist_str = os.environ.get("JUPYTER_ENV_WHITELIST", None)
     if whitelist_str is not None:
         whitelist = [s.strip().upper() for s in whitelist_str.split(",")]
     else:

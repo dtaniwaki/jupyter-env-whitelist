@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "jupyter-whitelist-env"
+name = "jupyter-env-whitelist"
 version = "0.1.1"
 description = ""
 authors = ["Daisuke Taniwaki <daisuketaniwaki@gmail.com>"]

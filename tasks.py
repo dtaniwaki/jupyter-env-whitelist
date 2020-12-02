@@ -6,7 +6,7 @@ root_dir = os.path.dirname(__file__)
 
 exclude_regex = "/(protos?|modules)/"
 exclude_glob = "**/proto/**,**/protos/**,**/modules/**"
-mypy_paths = "jupyter_whitelist_env"
+mypy_paths = "jupyter_env_whitelist"
 
 
 @invoke.task()
