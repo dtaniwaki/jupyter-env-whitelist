@@ -1,7 +1,11 @@
-import os
 from unittest.mock import patch
 
-from jupyter_env_whitelist import __version__, load_jupyter_server_extension
+from jupyter_env_whitelist import (
+    __version__,
+    load_ipython_extension,
+    load_jupyter_server_extension,
+    unload_ipython_extension,
+)
 
 
 def test_version():
@@ -9,12 +13,17 @@ def test_version():
 
 
 def test_load_jupyter_server_extension():
-    app = None
+    with patch("jupyter_env_whitelist.filter_env") as m:
+        load_jupyter_server_extension(None)
+    m.assert_called_once_with()
 
-    with patch.dict(os.environ, {"foo": "1", "bar": "2", "PWD": "pwd"}, clear=True):
-        load_jupyter_server_extension(app)
-        assert os.environ == {"PWD": "pwd"}
 
-    with patch.dict(os.environ, {"JUPYTER_ENV_WHITELIST": "foo,bar", "foo": "1", "bar": "2", "PWD": "pwd"}, clear=True):
-        load_jupyter_server_extension(app)
-        assert os.environ == {"foo": "1", "bar": "2"}
+def test_load_ipython_extension():
+    with patch("jupyter_env_whitelist.filter_env") as m:
+        load_ipython_extension(None)
+    m.assert_called_once_with()
+
+
+def test_unload_ipython_extension():
+    # Ensure no error.
+    unload_ipython_extension(None)
