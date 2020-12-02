@@ -5,7 +5,7 @@ from notebook.notebookapp import NotebookWebApplication
 
 from .whitelist import filter_env
 
-__version__ = "0.1.1"
+__version__ = "0.2.0"
 
 
 def load_jupyter_server_extension(_nb_server_app: NotebookWebApplication) -> None:
