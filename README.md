@@ -2,7 +2,7 @@
 
 [![Latest PyPI version](https://img.shields.io/pypi/v/jupyter-env-whitelist?logo=pypi)](https://pypi.python.org/pypi/jupyter-env-whitelist)
 [![TravisCI build status](https://img.shields.io/travis/com/dtaniwaki/jupyter-env-whitelist?logo=travis)](https://travis-ci.com/dtaniwaki/jupyter-env-whitelist)
-[![Test coverage of code](https://codecov.io/gh/dtaniwaki/jupyter-env-whitelist/branch/master/graph/badge.svg)](https://codecov.io/gh/dtaniwaki/jupyter-env-whitelist)
+[![Test coverage of code](https://codecov.io/gh/dtaniwaki/jupyter-env-whitelist/branch/main/graph/badge.svg)](https://codecov.io/gh/dtaniwaki/jupyter-env-whitelist)
 
 Protect Jupyter Kernel with Whitelist Env.
 
