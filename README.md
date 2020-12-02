@@ -14,6 +14,8 @@ $ pip install jupyter-env-whitelist
 
 ## Usage
 
+### Notebook Server Extension
+
 You can enabled the server extension by the following command.
 
 ```bash
@@ -26,4 +28,14 @@ Alternatively, you can enable it by adding the following setting in your `jupyte
 c.NotebookApp.nbserver_extensions = {
     'jupyter_env_whitelist': True,
 }
+```
+
+### IPython Extension
+
+You can enable it by adding the following setting in your `ipython_kernel_config.py`.
+
+```python
+c.InteractiveShellApp.extensions = [
+    'jupyter_env_whitelist',
+]
 ```
