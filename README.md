@@ -1,5 +1,9 @@
 # jupyter-whitelist-env
 
+[![Latest PyPI version](https://img.shields.io/pypi/v/jupyter-whitelist-env?logo=pypi)](https://pypi.python.org/pypi/jupyter-whitelist-env)
+[![TravisCI build status](https://img.shields.io/travis/com/dtaniwaki/jupyter-whitelist-env?logo=travis)](https://travis-ci.com/dtaniwaki/jupyter-whitelist-env)
+[![Test coverage of code](https://codecov.io/gh/dtaniwaki/jupyter-whitelist-env/branch/master/graph/badge.svg)](https://codecov.io/gh/dtaniwaki/jupyter-whitelist-env)
+
 Protect Jupyter Kernel with Whitelist Env.
 
 ## Installation
