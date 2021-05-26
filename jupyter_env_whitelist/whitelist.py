@@ -14,6 +14,8 @@ default_whitelist = [
     "NO_PROXY",
     "HTTP_PROXY",
     "HTTPS_PROXY",
+    "LD_LIBRARY_PATH",
+    "PATH",
 ]
 
 
