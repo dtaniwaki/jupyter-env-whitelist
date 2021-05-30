@@ -15,6 +15,8 @@ default_whitelist = [
     "HTTP_PROXY",
     "HTTPS_PROXY",
     "LD_LIBRARY_PATH",
+    "REQUESTS_CA_BUNDLE",
+    "CURL_CA_BUNDLE",
     "PATH",
 ]
 
