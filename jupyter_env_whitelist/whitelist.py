@@ -18,6 +18,7 @@ default_whitelist = [
     "REQUESTS_CA_BUNDLE",
     "CURL_CA_BUNDLE",
     "PATH",
+    "PYENV_ROOT",
 ]
 
 
