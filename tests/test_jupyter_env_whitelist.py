@@ -9,7 +9,7 @@ from jupyter_env_whitelist import (
 
 
 def test_version():
-    assert __version__ == "0.3.1"
+    assert __version__ == "0.3.2"
 
 
 def test_load_jupyter_server_extension():
